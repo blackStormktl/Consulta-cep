@@ -1,0 +1,60 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    color:#fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background-image: url('../assets/bk-home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-attachment: fixed;*/
+    
+}
+
+#container{
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#container #header{
+
+}
+
+#container #principal{
+    
+    margin-top: 20px;
+}
+#container #principal input{
+    border-radius: 10px 0px 0px 10px ;
+    width: 55%;
+    padding: 18px;
+    border: none;
+}
+#container #principal button{
+    border-radius: 0px 10px 10px 0px ;
+    background-color:   #32cd32;
+    border: none;
+    padding: 18px;
+}
+
+#container #resp{
+    border-radius: 9px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.60);
+    height: 100px;
+    margin-top: 10px;
+}
+
+
+@media {
+
+}
